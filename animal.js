@@ -1,12 +1,13 @@
 var simRunning = false;
 var simNotPausing = true;
 var notGettingTable = true;
+alert("Made it to here");
 
 function supportsImports() {
   return 'import' in document.createElement('link');
 }
 
-if (supportsImports()) {
+if (true){//supportsImports()) {
     alert("Good");
     var link = document.querySelector('link[rel="import"]');
     var content = link.import;
