@@ -15,7 +15,7 @@ if (true){//supportsImports()) {
     // Grab DOM from warning.html's document.
     var el = content.querySelector('.Hello');
 
-    t1=getElementByID("fromFile");
+    t1=document.getElementByID("fromFile");
     t1.innerHTML = el.cloneNode(true);
 
 } else {
